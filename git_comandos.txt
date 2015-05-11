@@ -1,0 +1,107 @@
+   11  git
+   70  git status
+   71  git add .
+   73  git commit -m "Primerio commit" 
+   78  git config --global user.email " watakabe05@gmail.com" 
+   79  git config --global user.name "Paulo Watakabe" 
+  113  git --help
+  153  git init
+  154  git status
+  155  git add .
+  159  git log
+  167  git commit -m "Alterando name space"
+  171  git --help
+  176  git remote add origin git@github.com:PauloJapa/CodeCommerce-.git
+  177  git remote
+  178  git push -u origin master
+  179  more .git/config
+  180  git push origin master
+  181  git remote del origin
+  182  git remote remove origin
+  183  git remote
+  184  git remote add origin https://github.com/PauloJapa/CodeCommerce.git
+  185  git remote
+  186  git push -u origin master
+  271  git commit -m "Model Products e rotas para product e category"
+  273  git push origin master
+  274  git remote
+  275  git remote origin
+  276  git remote -v 
+  299  git commit -m "criando model Category"
+  306  git config --global color.ui true
+  307  git config --list
+  312  git init
+  323  git status
+  324  git add arquivo.txt
+  325  git status
+  326  git commit -m "primeiro commit"
+  327  git status
+  328  git log
+  330  git status
+  331  git add arquivo.txt
+  332  git commit -m "segundo commit"
+  333  git status
+  334  git log
+  336  git status
+  337  git add .
+  338  git commit
+  339  git log
+  342  git status
+  343  git commit -a -m "commitando arquivo e teste juntos"
+  344  git log
+  345  git log -p
+  346  git log -p -2
+  347  git log -p -1
+  354  git log --pretty=oneline
+  356  git log --stat
+  357  git log --pretty=format:"%h - %an, %ar : %s"
+  358  git log --since=2.days
+  359  git log --since=2.weeks
+  367  mv .ignore .gitignore
+  371  git commit -m "Adicionano .gitignore"
+  373  git log -p
+  379  git reset HEAD teste2.tst
+  390  git reset HEAD teste3.txt
+  391  git reset HEAD teste4.txt
+  392  git log
+  393  git checkout 3e1467773f
+  394  git branch
+  398  git checkout master
+  401  git log
+  402  git branch
+  403  git reset HEAD~1 --soft
+  404  git status
+  406  git status
+  407  git commit -m "Adicionano .gitignore"
+  408  git reset HEAD~1 --hard
+  409  git log
+  410  git status
+  411  mv .gitignorebkp .gitignore
+  412  git status
+  413  git add .gitignore
+  414  git commit -m "Adicionano .gitignore"
+  415  git log
+  416  git status
+  417  git checkout -b funcionalidade1
+  418  git branch
+  424  git add funcionalidade.txt 
+  425  git commit -m "commit de funalidade1"
+  426  git log
+  427  git checkout master
+  428  git log
+  429  git status
+  430  git add .
+  431  git commit -m "commit apos comitar no funcionalidade"
+  432  git log
+  433  git status
+  435  git branch
+  436  git log
+  437  git merge funcionalidade1
+  438  git log
+  440  git status
+  441  git reset HEAD~1 --hard
+  442  git log
+  443  git rebase funcionalidade1
+  444  git log
+  445  git branch -D funcionalidade1
+  446  history| grep git > git_comandos.txt
